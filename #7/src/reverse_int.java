@@ -19,7 +19,7 @@ public class reverse_int {
 		int b = 1534236469;
 		Solution s = new Solution();
 	//	System.out.print(Integer.MAX_VALUE *8);
-		System.out.print(s.reverse(b));
+		 System.out.print(s.reverse(b));
 	}
 
 }
