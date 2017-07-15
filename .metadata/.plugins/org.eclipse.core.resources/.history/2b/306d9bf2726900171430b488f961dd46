@@ -21,7 +21,6 @@ class Solution {
        
         int len = needle.length();
         for(int i = 0,j = i;i <= haystack.length() - len;i++) {
-        	j = 0;
         	while(j < needle.length() && haystack.charAt(i+j) == needle.charAt(j)) {
         		j++;
         	}
